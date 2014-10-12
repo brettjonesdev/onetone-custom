@@ -1,0 +1,534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: onetone 1.2.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 09:10+0800\n"
+"PO-Revision-Date: 2014-09-23 09:10+0800\n"
+"Last-Translator: shijun quan <support@mageewp.com>\n"
+"Language-Team: Magee <support@mageewp.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: onetone"
+"\\\n"
+
+#: onetone\/admin/includes/class-options-framework-admin.php:64
+#, php-format
+msgid ""
+"Your current theme does not have support for the Options Framework plugin.  "
+"<a href=\"%1$s\" target=\"_blank\">Learn More</a> | <a href=\"%2$s\">Hide "
+"Notice</a>"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-framework-admin.php:116
+#: onetone\/admin/includes/class-options-framework-admin.php:117
+#: onetone\/admin/includes/class-options-framework-admin.php:342
+msgid "Theme Options"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-framework-admin.php:209
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-framework-admin.php:241
+msgid "Default options restored."
+msgstr ""
+
+#: onetone\/admin/includes/class-options-framework-admin.php:294
+msgid "Options saved."
+msgstr ""
+
+#: onetone\/admin/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-media-uploader.php:66
+#: onetone\/admin/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-media-uploader.php:68
+#: onetone\/admin/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: onetone\/admin/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:257
+msgid "Top Left"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:258
+msgid "Top Center"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:259
+msgid "Top Right"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:261
+msgid "Middle Center"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:263
+msgid "Bottom Left"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:265
+msgid "Bottom Right"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:358
+msgid "Normal"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:359
+msgid "Italic"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:360
+msgid "Bold"
+msgstr ""
+
+#: onetone\/admin/includes/class-options-sanitization.php:361
+msgid "Bold Italic"
+msgstr ""
+
+#: onetone\/archive.php:27
+#: onetone\/content-article.php:7
+#: onetone\/page.php:27
+#: onetone\/single.php:26
+msgid "Categories"
+msgstr ""
+
+#: onetone\/archive.php:28
+#: onetone\/content-article.php:8
+#: onetone\/page.php:28
+#: onetone\/single.php:26
+msgid "Author"
+msgstr ""
+
+#: onetone\/archive.php:38
+#: onetone\/content-article.php:18
+msgid "Read More"
+msgstr ""
+
+#: onetone\/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: onetone\/comments.php:21
+msgid "No comment"
+msgstr ""
+
+#: onetone\/comments.php:21
+msgid "Has one comment"
+msgstr ""
+
+#: onetone\/comments.php:21
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: onetone\/comments.php:21
+#, php-format
+msgid "to &#8220;%s&#8221;"
+msgstr ""
+
+#: onetone\/comments.php:22
+msgid "You can "
+msgstr ""
+
+#: onetone\/comments.php:22
+msgid "leave a reply"
+msgstr ""
+
+#: onetone\/comments.php:22
+msgid " or "
+msgstr ""
+
+#: onetone\/comments.php:22
+msgid "Trackback"
+msgstr ""
+
+#: onetone\/comments.php:22
+msgid "this post."
+msgstr ""
+
+#: onetone\/comments.php:34
+msgid "Comment pages"
+msgstr ""
+
+#: onetone\/comments.php:64
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: onetone\/comments.php:76
+msgid "Your email address will not be published."
+msgstr ""
+
+#: onetone\/comments.php:79
+msgid "Write a Reply or Comment"
+msgstr ""
+
+#: onetone\/content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: onetone\/content-none.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: onetone\/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: onetone\/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: onetone\/footer-site.php:3
+#: onetone\/footer.php:3
+#, php-format
+msgid ""
+"Powered by <a href=\"%s\">WordPress</a>. Designed by <a href=\"%s\">MageeWP "
+"Themes</a>."
+msgstr ""
+
+#: onetone\/includes/admin-options.php:206
+msgid "General Options"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:210
+msgid "Upload Logo"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:216
+msgid "Favicon"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:217
+msgid ""
+"An icon associated with a URL that is variously displayed, as in a browser's "
+"address bar or next to the site name in a bookmark list. Learn more about \n"
+"\t\t\t\t\t <a href=\""
+msgstr ""
+
+#: onetone\/includes/admin-options.php:223
+msgid "Post & Page Background"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:230
+msgid "Header Menu Font Color"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:237
+msgid "Custom CSS"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:238
+msgid ""
+"The following css code will add to the header before the closing &lt;/"
+"head&gt; tag."
+msgstr ""
+
+#: onetone\/includes/admin-options.php:245
+#, fuzzy
+msgid "Home Page"
+msgstr "首页分栏"
+
+#: onetone\/includes/admin-options.php:251
+msgid "Content Sections Num"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:252
+msgid "The number of home page sections."
+msgstr ""
+
+#: onetone\/includes/admin-options.php:257
+msgid "Section Background Video"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:257
+msgid "YouTube Video ID"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:261
+msgid "Video Controls"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:262
+msgid "Display video control buttons."
+msgstr ""
+
+#: onetone\/includes/admin-options.php:275
+msgid "Video Background Section"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:279
+msgid "Section 1 Content"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:305
+#, php-format
+msgid "Section %s"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:306
+msgid "Section Title"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:307
+msgid "Menu Title"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:308
+msgid "Menu Slug"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:310
+msgid "Section Background"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:318
+msgid "Section Css Class"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:322
+msgid "Section Content"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:332
+msgid "Slider"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:338
+msgid "Slideshow"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:340
+msgid "Slide 1"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:341
+#: onetone\/includes/admin-options.php:349
+#: onetone\/includes/admin-options.php:356
+#: onetone\/includes/admin-options.php:363
+#: onetone\/includes/admin-options.php:370
+msgid "Image"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:344
+#: onetone\/includes/admin-options.php:351
+#: onetone\/includes/admin-options.php:358
+#: onetone\/includes/admin-options.php:365
+#: onetone\/includes/admin-options.php:372
+msgid "Text"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:348
+msgid "Slide 2"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:355
+msgid "Slide 3"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:362
+msgid "Slide 4"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:369
+msgid "Slide 5"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:385
+msgid "Slide Time"
+msgstr ""
+
+#: onetone\/includes/admin-options.php:388
+msgid ""
+"Milliseconds between the end of the sliding effect and the start of the nex "
+"one."
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:28
+#: onetone\/includes/class-breadcrumb.php:195
+#, fuzzy
+msgid "Home"
+msgstr "首页"
+
+#: onetone\/includes/class-breadcrumb.php:129
+msgid "404 - Page not Found"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:131
+msgid "Search"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:192
+msgid "You are here:"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:397
+msgid "g:i a"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:400
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:400
+msgid "i"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:403
+msgid "g a"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:414
+#: onetone\/includes/class-breadcrumb.php:420
+#: onetone\/includes/class-breadcrumb.php:425
+#: onetone\/includes/class-breadcrumb.php:430
+msgid "Y"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:415
+#: onetone\/includes/class-breadcrumb.php:426
+msgid "F"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:416
+msgid "j"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:421
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:437
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: onetone\/includes/class-breadcrumb.php:441
+msgid "404 Not Found"
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:31
+msgid "Please enter your name."
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:38
+msgid "Please enter your email address."
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:41
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:48
+msgid "Please enter a message."
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:73
+msgid "Your message has been successfully sent!"
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:146
+#, php-format
+msgid "%s </cite><span class=\"says\">says:</span>"
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:148
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:149
+msgid "(Edit)"
+msgstr ""
+
+#: onetone\/includes/theme-functions.php:155
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: onetone\/includes/theme-setup.php:22
+msgid "Primary Menu"
+msgstr ""
+
+#: onetone\/includes/theme-setup.php:23
+msgid "Home Page Header Menu"
+msgstr ""
+
+#: onetone\/includes/theme-setup.php:193
+#: onetone\/includes/theme-setup.php:194
+msgid "Onetone Options"
+msgstr ""
+
+#: onetone\/includes/theme-setup.php:216
+#, php-format
+msgid " Page %s "
+msgstr ""
+
+#: onetone\/page.php:45
+#: onetone\/single.php:58
+msgid "Pages:"
+msgstr ""
