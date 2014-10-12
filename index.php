@@ -35,7 +35,7 @@ get_header("site");
 
 		<div class="sidebar">
 			<div class="widget-area">
-		<?php dynamic_sidebar(1) ;?>
+		<?php dynamic_sidebar("default_sidebar") ;?>
 			</div>
 		</div>
 		<!--sidebar--> 
@@ -48,7 +48,7 @@ get_footer("site");
 <?php 
 get_header();
 ?>
-<div class="container home-wrapper">
+<div class="home-wrapper">
 <?php
  global $onetone_options;
  
@@ -60,6 +60,9 @@ get_header();
  $video_controls            = onetone_options_array( 'video_controls' );
  $video_controls            = $video_controls == ""?1:$video_controls;
  $section_1_content         = onetone_options_array( 'section_1_content' );
+ $video_background_type     = onetone_options_array( 'video_background_type' );
+ $video_background_type     = $video_background_type == ""?"youtube":$video_background_type;
+ 
 
  if(isset($section_num) && is_numeric($section_num ) && $section_num >0):
  for( $i = 0; $i < $section_num ;$i++){
@@ -71,11 +74,23 @@ get_header();
 		 }else{
  
  $section_title       = onetone_options_array( 'section_title_'.$i );
+ $section_title_color = onetone_options_array( 'section_title_color_'.$i);
  $section_menu        = onetone_options_array( 'menu_title_'.$i );
  $section_background  = onetone_options_array( 'section_background_'.$i );
- 
+ $parallax_scrolling  = onetone_options_array( 'parallax_scrolling_'.$i );
  $section_css_class   = onetone_options_array( 'section_css_class_'.$i );
  $section_content     = onetone_options_array( 'section_content_'.$i );
+ $background_size     = onetone_options_array( 'background_size_'.$i );
+ $full_width          = onetone_options_array( 'full_width_'.$i );
+ 
+ $mp4_video_url       = onetone_options_array( 'mp4_video_url' );
+ $ogv_video_url       = onetone_options_array( 'ogv_video_url' );
+ $webm_video_url      = onetone_options_array( 'webm_video_url' );
+ $poster_url          = onetone_options_array( 'poster_url' );
+ $video_loop          = onetone_options_array( 'video_loop' );
+ $video_volume        = onetone_options_array( 'video_volume' );
+ $video_volume        = $video_volume == "" ? 0.8 : $video_volume ;
+ 
   if(!isset($section_content) || $section_content=="") $section_content     = onetone_options_array( 'sction_content_'.$i );
  $section_slug        = onetone_options_array( 'menu_slug_'.$i );
 
@@ -93,31 +108,55 @@ get_header();
   $video_wrap = '';
   $video_enable = 0;
   $detect = new Mobile_Detect;
-  if($section_background_video != "" && $video_background_section == ($i+1) && !$detect->isMobile() && !$detect->isTablet()){
+  if(  $video_background_section == ($i+1) && !$detect->isMobile() && !$detect->isTablet() ){
 	$video_enable = 1;  
+	$video_wrap   = "video-section";
+	$background = "";
   }
   
- if($video_enable == 1){
+ if( $video_enable == 1 && $video_background_type == "youtube"){
 
     $background_video  = array("videoId"=>$section_background_video, "start"=>3 ,"container" =>"section.onetone-".$sanitize_title,"playerid"=>$sanitize_title);
     $video_section_item = "section.onetone-".$sanitize_title;
     $video_array[]  =  array("options"=>$background_video,  "video_section_item"=>$video_section_item );
-	$background = "";
-	$video_wrap = "video-section";
+	
 	}
+	
  
+
+ if( $parallax_scrolling == "yes" ){
+	 $css_class  .= ' onetone-parallax';
+	 $background .= 'background-attachment:fixed;background-position:50% 0;background-repeat:no-repeat;';
+	 }
+	 
+  if( $background_size == "yes" ){
+	  $background .= '-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;';
+  }
+  
+  $title_style = "";
+  if( $section_title_color != "" && $section_title_color != null )
+  {
+	  $title_style = 'color:'.$section_title_color;
+	  }
+  $container_class = "container";
+  $container_style = "";
+  if( $full_width == "yes" ){
+  $container_class = "";
+  $container_style = "padding: 0;";
+  }
+
  ?>
  <section id="<?php echo $sanitize_title;?>" class="section <?php echo $css_class;?> onetone-<?php echo $sanitize_title;?> <?php echo $video_wrap;?>"  style=" <?php echo $background; ?>">
-    	<div class="home-container page_container" >
+    	<div class="home-container <?php echo $container_class; ?> page_container"  style=" <?php echo $container_style;?>">
 		<?php if($section_title){?>
-        	<h1><?php echo $section_title;?></h1>
+        	<h1 class="section-title" style=" <?php echo $title_style;?>"><?php echo $section_title;?></h1>
             <?php } ?>
             <?php echo do_shortcode($section_content);?>
             
         </div>
 		<div class="clear"></div>
      <?php 
-	  if( $video_enable == 1 && $video_controls == 1 ){
+	  if( $video_enable == 1 && $video_controls == 1 && $video_background_type == "youtube" ){
 	  echo '<p class="black-65" id="video-controls">
 		  <a class="tubular-play" href="#"><i class="fa fa-play "></i></a>&nbsp; &nbsp;&nbsp;&nbsp;
 		  <a class="tubular-pause" href="#"><i class="fa fa-pause "></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -125,9 +164,46 @@ get_header();
 		  <a class="tubular-volume-down" href="#"><i class="fa fa-volume-off "></i></a> 
 	  </p>';
 	 }
+	
 	 ?>
     </section>
  <?php
+ 
+  
+	 if( $video_enable == 1 && $video_background_type == "html5" ){
+		 if( $video_loop == 1 ){
+		$video_loop = "true";
+		}
+		else{
+		$video_loop = "false";	
+			}
+	
+		
+		 echo '<script type="text/javascript" src="'.get_template_directory_uri().'/js/video.js"></script>';
+		 echo '<script type="text/javascript" src="'.get_template_directory_uri().'/js/bigvideo.js"></script>';
+		 echo '<script type="text/javascript" > 
+		    var BV;
+            var BV = new jQuery.BigVideo({
+				useFlashForFirefox:false,
+				forceAutoplay:true,
+				controls:false,
+				doLoop:'.$video_loop.',
+			});
+			BV.init();
+			if (Modernizr.touch) {
+				BV.show("'.$poster_url.'");
+			} else {
+				BV.show(
+				[
+        { type: "video/mp4",  src: "'.$mp4_video_url.'" },
+        { type: "video/webm", src: "'.$webm_video_url.'" },
+        { type: "video/ogg",  src: "'.$ogv_video_url.'" }
+    ],{ambient:'.$video_loop.'});
+	BV.getPlayer().volume('.$video_volume.');
+			}
+	  </script>';
+	 }
+	 
  }
  }
   if($video_array !="" && $video_array != NULL ){

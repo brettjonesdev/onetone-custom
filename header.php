@@ -49,7 +49,7 @@
  if(trim($section_slug) !=""){
 	 $sanitize_title = $section_slug; 
 	 }
- $onepage_menu .= '<li  class="onetone-menuitem"><a id="onetone-'.$sanitize_title.'" href="#'.$sanitize_title.'" >
+ $onepage_menu .= '<li  class="onetone-menuitem"><a class="onetone-menu-link" id="onetone-menu-'.$sanitize_title.'" href="#'.$sanitize_title.'" >
  <span>'.$section_menu.'</span></a></li>';
  }
  }

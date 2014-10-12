@@ -211,6 +211,7 @@ function add_my_options_page() {
 				</div>
 				</form>
 			</div> <!-- / #container -->
+			 <?php do_action( 'optionsframework_sidebar' ); ?>
 		</div>
 		<?php do_action( 'optionsframework_after' ); ?>
 		</div> <!-- / .wrap -->

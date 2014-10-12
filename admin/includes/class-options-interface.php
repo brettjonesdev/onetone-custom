@@ -352,7 +352,7 @@ class Options_Framework_Interface {
 				$textarea_name = esc_attr( $option_name . '[' . $value['id'] . ']' );
 				$default_editor_settings = array(
 					'textarea_name' => $textarea_name,
-					'media_buttons' => false,
+					'media_buttons' => true,
 					'tinymce' => array( 'plugins' => 'wordpress' )
 				);
 				$editor_settings = array();

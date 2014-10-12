@@ -1,0 +1,294 @@
+/** menu **/
+.onetone-nav > ul > li:first-child {
+	border-top: 1px solid #ccc;
+}
+
+.onetone-nav li.active > a {
+	border-right: 3px solid #963;
+}
+
+.onetone-nav li ul {
+	display: none;
+}
+
+.onetone-nav li:hover > ul {
+	display: block;
+}
+
+.onetone-nav li:hover > a {
+	background-color: rgba(255,255,255,.05);
+	border-right: 3px solid #963;
+}
+
+.onetone-nav li.active > ul {
+	display: block;
+}
+
+.onetone-nav li.active > a {
+	color: #963;
+}
+
+.onetone-nav a {
+	display: block;
+	padding: 5px 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+/* align */
+.align-center,.aligncenter {
+	display:inline-block;
+	text-align:center;
+	margin:auto;
+}
+.align-left,.alignleft {
+	display:inline-block;
+	text-align:left;
+	margin:auto;
+}
+.align-right,.alignright {
+	display:inline-block;
+	text-align:right;
+	margin:auto;
+}
+/* row */
+.row:after {
+    clear: both;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+/* service */
+
+.service-box i {
+    border: 1px solid #d0d0d0;
+    border-radius: 60px;
+    color: #c96;
+    font-size: 70px;
+    height: 120px;
+    line-height: 120px;
+    width: 120px;
+	text-align: center;
+}
+.service-box:hover i {
+    background-color: #c96;
+    border-color: transparent;
+    color: #fff;
+}
+.service-box h3 {
+    text-transform: uppercase;
+}
+.service-box p {
+    margin-bottom: 12px;
+}
+.service-box a {
+    font-style: italic;
+}
+.service-box.style2 h3 {
+}
+.service-box.style2 i {
+    border: medium none;
+    border-radius: 0;
+    color: #595959;
+    font-size: 60px;
+    height: auto;
+    line-height: inherit;
+    margin-right: 30px;
+    width: auto;
+}
+.service-box.style2:hover i {
+    background-color: transparent;
+    border-color: transparent;
+    color: #c96;
+}
+.service-box.style2 a {
+    color: #333;
+}
+.service-box.style2:hover a {
+    color: #c96;
+}
+.service-box.style3 {
+    background-color: #eee;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 60px;
+    padding: 50px 10px 20px;
+    position: relative;
+}
+.service-box.style3 i {
+    background-color: #fff;
+    border-color: #eee;
+    color: #595959;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    top: -60px;
+}
+.service-box.style3 a {
+    color: #333;
+}
+.service-box.style3:hover {
+    background-color: #fff;
+    border-color: #d0d0d0;
+}
+.service-box.style3:hover i {
+    background-color: #c96;
+    color: #fff;
+}
+.service-box.style3:hover a {
+    color: #c96;
+}
+.service-box.style4 {
+    padding-left: 90px;
+    position: relative;
+}
+.service-box.style4 i {
+    border-color: #c96;
+    border-radius: 40px;
+    font-size: 50px;
+    height: 80px;
+    left: 0;
+    line-height: 80px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 80px;
+}
+.service-box.style4 h3 {
+    color: #c96;
+    padding-top: 10px;
+}
+
+/* contact */
+
+.contact-form section {
+    overflow: hidden;
+}
+.contact-form fieldset {
+    border: medium none;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+.contact-form.style1 input[type="text"], .contact-form.style1 input[type="email"], .contact-form.style1 textarea {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.contact-form input[type="button"] {
+	margin-top:10px;
+}
+.contact-form.style2 section {
+    position: relative;
+}
+.contact-form.style2 i {
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.contact-form.style2 input[type="text"], .contact-form.style2 input[type="email"], .contact-form.style2 textarea {
+    background-color: #ccc;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 25px 10px 10px;
+}
+.contact-form.style2 input:-moz-placeholder, .contact-form.style2 textarea:-moz-placeholder {
+    color: #fff;
+}
+/* botton */
+.btn {
+    line-height:2;
+    padding: 0 1em;
+    border: 1px solid #666;
+    background: none;
+    min-width: 110px;
+}
+
+.btn-rd {
+    border-radius: 3px;
+}
+
+.btn-lg {
+    font-size: 1.4em;
+    border-width:2px;
+}
+
+.btn:hover {
+    background: rgba(220,220,220,.1);
+}
+
+
+/** blog timeline**/
+
+.timeline {
+    padding-left: 30px;
+    position: relative;
+}
+.time-stick {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    left: 5px;
+    border-left:1px dotted #bbb;
+}
+.time-box {
+    text-align: left;
+    position: relative;
+}
+.time-title {
+    color: #888;
+}
+.time-title:hover {
+    color: #c96;
+}
+.time-title::after {
+    position: absolute;
+    left: -30px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: #aaa;
+    content: "";
+    border-radius: 5px;
+}
+
+/*
+ *  Divider
+ */
+
+.divider {
+	margin: 15px 0;
+	width: 100%;
+	height: 1px;
+}
+
+.divider.style1 {
+	border-bottom: 1px solid #ccc;
+}
+
+.divider.style2 {
+	border-bottom: 1px dashed #ccc;
+}
+
+.divider.style3 {
+	height: 6px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.divider.style4 {
+	border-bottom: 1px solid #ccc;
+	box-shadow: 1px 1px 5px #ccc;
+}
+

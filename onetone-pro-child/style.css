@@ -1,0 +1,12 @@
+/*
+Theme Name: OneTone Pro Child
+Theme URI: http://www.mageewp.com/onetone-theme.html
+Description: Child theme for the OneTone Pro.
+Template: onetone-pro
+Version: 1.3.0
+Author: MageeWP
+Author URI: http://www.mageewp.com
+
+*/
+@import url("../onetone-pro/style.css");
+.home-header{ background:gray;}

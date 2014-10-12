@@ -1,0 +1,29 @@
+#onetone-shortcodes-settings-inner{
+	padding-bottom:30px;
+	}
+.onetone_shortcodes_list{
+	width:100%;
+	display: inline-block;
+	}
+.onetone_shortcodes_list li{
+	list-style:none;
+	float:left;
+	width:25%;
+	text-align:left;
+	margin-bottom:10px;
+	}
+.onetone_shortcodes_list li a{
+	color:#444;
+	text-decoration:none;
+}
+#onetone-shortcodes-settings{
+	display:block;
+	width:100%;
+	display:none;
+	}
+#onetone-shortcodes-settings textarea{
+	max-width:100%;
+}
+div.group_open .section{
+	background-color:#eee;
+	}

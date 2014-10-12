@@ -135,6 +135,7 @@
     }
 
     // load yt iframe js api
+	if(typeof onetone_bigvideo !== 'undefined' && onetone_bigvideo!=null){
 
     var tag = document.createElement('script');
     tag.src = "//www.youtube.com/iframe_api";
@@ -151,5 +152,6 @@
             }
         });
     }
+	}
 
 })(jQuery, window);

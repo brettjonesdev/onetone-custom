@@ -3,52 +3,10 @@ Onetone Theme
 
 ## Copyrights for Resources used in this theme.
 
-The theme itself is nothing but 100% GPL v2 or later.
-
-
-Icon
-License: The icons are free for personal use and also free for commercial use.
-All icons are under GPL v3 have been created by our team.
-Copyright: Mageewp.com, http://www.mageewp.com
-
 --------------------------------------------------------------------------------------------
 
-Font 
-==Awesome 4.0.3
-  License: License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
-  Copyright: by @davegandy - http://fontawesome.io - @fontawesome
---------------------------------------------------------------------------------------------
+Onetone is a one-page responsive business theme based on HTML5/CSS3. All required information are displayed on a single page with clear order according to users¡¯ preferences. The basic sections designed for business purpose have already been built for you. There¡¯s also an extensive admin panel where unlimited sections can be easily added. Multiple options are available if you prefer to do some adjustments,such as changing background, video background, Font Awesome Icons, uploading logo and favicon,adding custom CSS and so on.
 
-Images
-License: Background images and home page images are from Unsplash with "do whatever you want" license. 
-Copyright: http://unsplash.com/
-
---------------------------------------------------------------------------------------------
-
-Administration Panel 
-License: For the Administration Panel, we have used "Options Framework", which is under GPL v2 license. 
-Copyright: Devin Price, http://wptheming.com/options-framework-plugin/ 
-
---------------------------------------------------------------------------------------------
-
-JS files
-jquery.nav.js
-License: Dual licensed under the MIT and GPL licenses.
-Copyright (c) 2010 Trevor Davis (http://trevordavis.net)
-
-unslider.js
-License: wtfpl
-Copyright:  Unslider by @idiot and @damirfoy
-
-onetone.js
-License: GPLv3
-Copyright: MageeWp, http://www.mageewp.com
-
-jquery.tubular.1.0.js
-License: licensed under the MIT License
-Copyright: by Sean McCambridge  http://www.seanmccambridge.com/tubular
-
---------------------------------------------------------------------------------------------
 
 	For any help you can mail me at support[at]mageewp.com
 
@@ -56,6 +14,42 @@ Copyright: by Sean McCambridge  http://www.seanmccambridge.com/tubular
 /**********************************************************/
 
 == CHANGE LOG == 
+
+= Version 1.3.4 =
+* HTML5 video background optimization
+
+= Version 1.3.3 =
+* Homepage slider optimization
+
+= Version 1.3.2 =
+* Added 'full width' section option
+
+= Version 1.3.1 =
+* Fixed child theme issue
+
+= Version 1.3.0 =
+* Added header opacity option
+* Added nav menu typography option
+* Added google fonts
+* Added section title typography option
+* Added html5 video background
+* Added Parallax Scrolling Background Image(section shortcode & homepage section option)
+* Added homepage section 100% Background Image option
+* Added Revolution Slider 
+* Added LayerSlider 
+* Added contact form shortcode (3 style)
+* Added service shortcode (4 style)
+* Added align shortcode
+* Added CSS3 animation shortcode
+* Added column shortcode
+* Added menu shortcode
+* Added row shortcode
+* Added section shortcode
+* Added boxed shortcode
+* Added timeline shortcode
+* Added divider shortcode
+* Added full width page template
+* Added One Page template
 
 = Version 1.2.9 =
 * Smooth scrolling optimization
